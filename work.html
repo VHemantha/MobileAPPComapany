@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Work — PixelForge</title>
-<meta name="description" content="A selection of mobile apps designed and built by PixelForge across fintech, wellness, marketplace, and more.">
+<meta name="description" content="PixelForge is a new mobile app creation studio — our first case studies are on the way.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
@@ -15,10 +15,9 @@
 
 <header class="site-header">
   <div class="container">
-    <a href="index.html" class="logo"><span class="logo-mark"></span>PixelForge</a>
+    <a href="index.html" class="logo"><img src="img/logo.png" alt="PixelForge logo" class="logo-img"></a>
     <nav class="nav-links">
       <a href="index.html">Home</a>
-      <a href="work.html">Work</a>
       <a href="services.html">Services</a>
       <a href="about.html">About</a>
       <a href="contact.html">Contact</a>
@@ -36,96 +35,8 @@
     <div class="grid-overlay"></div>
     <div class="container" style="position:relative; z-index:2;">
       <span class="eyebrow" style="justify-content:center;">Our Work</span>
-      <h1>Products we've designed, built, and shipped.</h1>
-      <p>A selection of apps across fintech, wellness, marketplaces, and more — each one born from a real product problem.</p>
-    </div>
-  </section>
-
-  <section class="section" style="padding-top:20px;">
-    <div class="container">
-      <div class="filter-bar reveal">
-        <button class="filter-btn active" data-filter="all">All</button>
-        <button class="filter-btn" data-filter="ios">iOS</button>
-        <button class="filter-btn" data-filter="android">Android</button>
-        <button class="filter-btn" data-filter="flutter">Flutter</button>
-        <button class="filter-btn" data-filter="react-native">React Native</button>
-      </div>
-
-      <div class="work-grid">
-
-        <div class="work-card reveal" data-cat="ios"
-          data-case data-tag="Fintech · iOS &amp; Android" data-title="Driftline Pay"
-          data-desc="A peer-to-peer payments app with biometric checkout, instant transfers, and a rewards layer that boosted repeat usage by 34%. We led strategy, UI/UX, and native iOS development alongside the client's in-house Android team."
-          data-platform="iOS · Android" data-timeline="14 weeks" data-result="34% repeat usage lift">
-          <div class="work-thumb"><div class="phone"><div class="phone-screen"><div class="mock-status"><span>9:41</span><span>●●●</span></div><div class="mock-avatar"></div><div class="mock-line"></div><div class="mock-line short"></div><div class="mock-bars"><span style="height:50%"></span><span style="height:80%"></span><span style="height:60%"></span></div></div></div></div>
-          <div class="work-info">
-            <span class="work-tag">Fintech · iOS &amp; Android</span>
-            <h3>Driftline Pay</h3>
-            <p>Peer-to-peer payments with biometric checkout and instant transfers.</p>
-          </div>
-        </div>
-
-        <div class="work-card reveal reveal-delay-1" data-cat="flutter"
-          data-case data-tag="Wellness · Flutter" data-title="Halcyon Sleep"
-          data-desc="A sleep-tracking companion app with personalized soundscapes, wearable integration, and an AI coaching layer. Built cross-platform in Flutter to hit both stores on a tight launch window."
-          data-platform="iOS · Android (Flutter)" data-timeline="10 weeks" data-result="4.9★ store rating">
-          <div class="work-thumb"><div class="phone"><div class="phone-screen"><div class="mock-status"><span>9:41</span><span>●●●</span></div><div class="mock-card"><div class="mock-line grad"></div><div class="mock-line"></div></div><div class="mock-card"><div class="mock-line"></div></div></div></div></div>
-          <div class="work-info">
-            <span class="work-tag">Wellness · Flutter</span>
-            <h3>Halcyon Sleep</h3>
-            <p>Sleep-tracking companion with personalized soundscapes and coaching.</p>
-          </div>
-        </div>
-
-        <div class="work-card reveal reveal-delay-2" data-cat="react-native"
-          data-case data-tag="Marketplace · React Native" data-title="Kestrel Market"
-          data-desc="A two-sided marketplace connecting local makers with nearby buyers, featuring real-time chat, geolocation discovery, and integrated payouts. Reached 100k downloads within the first quarter of launch."
-          data-platform="iOS · Android (React Native)" data-timeline="16 weeks" data-result="100k downloads / Q1">
-          <div class="work-thumb"><div class="phone"><div class="phone-screen"><div class="mock-status"><span>9:41</span><span>●●●</span></div><div class="mock-avatar"></div><div class="mock-line short"></div><div class="mock-fab" style="position:static;margin-top:16px;"></div></div></div></div>
-          <div class="work-info">
-            <span class="work-tag">Marketplace · React Native</span>
-            <h3>Kestrel Market</h3>
-            <p>Two-sided marketplace connecting local makers with buyers nearby.</p>
-          </div>
-        </div>
-
-        <div class="work-card reveal" data-cat="android"
-          data-case data-tag="Productivity · Android" data-title="Northwind Notes"
-          data-desc="A privacy-first note-taking and task app built natively for Android with on-device sync and a widget-first design language optimized for one-handed use."
-          data-platform="Android (Kotlin)" data-timeline="8 weeks" data-result="4.7★ store rating">
-          <div class="work-thumb"><div class="phone"><div class="phone-screen"><div class="mock-status"><span>9:41</span><span>●●●</span></div><div class="mock-card"><div class="mock-line"></div><div class="mock-line short"></div></div><div class="mock-card"><div class="mock-line grad"></div></div></div></div></div>
-          <div class="work-info">
-            <span class="work-tag">Productivity · Android</span>
-            <h3>Northwind Notes</h3>
-            <p>Privacy-first note-taking app with on-device sync and widgets.</p>
-          </div>
-        </div>
-
-        <div class="work-card reveal reveal-delay-1" data-cat="ios"
-          data-case data-tag="Health · iOS" data-title="Velora Fit"
-          data-desc="A personal training app with adaptive workout plans, progress tracking, and Apple Watch companion support, built fully native in SwiftUI for a best-in-class feel."
-          data-platform="iOS (SwiftUI)" data-timeline="12 weeks" data-result="22k paid subscribers">
-          <div class="work-thumb"><div class="phone"><div class="phone-screen"><div class="mock-status"><span>9:41</span><span>●●●</span></div><div class="mock-avatar"></div><div class="mock-line"></div><div class="mock-bars"><span style="height:60%"></span><span style="height:90%"></span><span style="height:40%"></span><span style="height:70%"></span></div></div></div></div>
-          <div class="work-info">
-            <span class="work-tag">Health · iOS</span>
-            <h3>Velora Fit</h3>
-            <p>Adaptive personal training app with Apple Watch companion.</p>
-          </div>
-        </div>
-
-        <div class="work-card reveal reveal-delay-2" data-cat="flutter"
-          data-case data-tag="Travel · Flutter" data-title="Orbital Trips"
-          data-desc="An itinerary-planning app with offline maps, collaborative trip boards, and smart budget tracking — built once in Flutter and shipped to both stores simultaneously."
-          data-platform="iOS · Android (Flutter)" data-timeline="11 weeks" data-result="Launched in 40 countries">
-          <div class="work-thumb"><div class="phone"><div class="phone-screen"><div class="mock-status"><span>9:41</span><span>●●●</span></div><div class="mock-card"><div class="mock-line"></div><div class="mock-line short"></div></div><div class="mock-card"><div class="mock-line grad"></div><div class="mock-line"></div></div></div></div></div>
-          <div class="work-info">
-            <span class="work-tag">Travel · Flutter</span>
-            <h3>Orbital Trips</h3>
-            <p>Itinerary planning with offline maps and collaborative boards.</p>
-          </div>
-        </div>
-
-      </div>
+      <h1>Our first case studies are in the making.</h1>
+      <p>We're a brand-new studio — no portfolio here yet, but we're already building. Check back soon, or reach out and be one of our first stories.</p>
     </div>
   </section>
 
@@ -147,7 +58,7 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
-        <a href="index.html" class="logo"><span class="logo-mark"></span>PixelForge</a>
+        <a href="index.html" class="logo"><img src="img/logo.png" alt="PixelForge logo" class="logo-img"></a>
         <p>A mobile app creation studio designing and building standout products for ambitious teams.</p>
         <div class="socials" style="margin-top:20px;">
           <a href="#" aria-label="X / Twitter"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M4 4l16 16M20 4L4 20"/></svg></a>
@@ -158,7 +69,6 @@
       <div class="footer-col">
         <h5>Company</h5>
         <a href="about.html">About</a>
-        <a href="work.html">Work</a>
         <a href="services.html">Services</a>
         <a href="contact.html">Contact</a>
       </div>
@@ -172,7 +82,7 @@
       <div class="footer-col">
         <h5>Get In Touch</h5>
         <a href="mailto:hello@pixelforge.studio">hello@pixelforge.studio</a>
-        <a href="tel:+11234567890">+1 (123) 456-7890</a>
+        <a href="tel:+94750887262">+94 75 088 7262</a>
         <a href="contact.html">Book a Call</a>
       </div>
     </div>

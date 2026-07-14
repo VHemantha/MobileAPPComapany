@@ -1,5 +1,15 @@
 document.addEventListener('DOMContentLoaded', () => {
 
+  /* ---------- Door-open intro cleanup ---------- */
+  const doorIntro = document.querySelector('.door-intro');
+  if (doorIntro) {
+    const removeDoor = () => doorIntro.remove();
+    doorIntro.addEventListener('animationend', (e) => {
+      if (e.target.classList.contains('door-right')) removeDoor();
+    });
+    setTimeout(removeDoor, 2200); // fallback in case animationend doesn't fire
+  }
+
   /* ---------- Sticky header on scroll ---------- */
   const header = document.querySelector('.site-header');
   const onScroll = () => {
