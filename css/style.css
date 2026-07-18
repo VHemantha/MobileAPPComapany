@@ -640,6 +640,7 @@ section{ position: relative; }
 
 /* ---------------- Contact ---------------- */
 .contact-grid{ display:grid; grid-template-columns: 1fr 1fr; gap:50px; align-items:start; }
+.contact-grid-single{ grid-template-columns: 1fr; max-width:520px; margin:0 auto; }
 .form-group{ margin-bottom:20px; }
 .form-group label{ display:block; font-size:13.5px; font-weight:600; margin-bottom:8px; color: var(--text-dim); }
 .form-group input, .form-group textarea, .form-group select{
